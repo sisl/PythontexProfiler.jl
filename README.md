@@ -2,6 +2,14 @@
 
 This package is a profiler for the pythontex package when used to produce Julia code. It is useful for determining what lines of code in a latex document are responsible for computation time, memory allocation, and garbage collection.
 
+## Installation
+
+From within Julia run:
+```
+] add https://github.com/sisl/PythontexProfiler.jl
+
+```
+
 ## Example
 
 We have a tex file [test.tex](test/test.tex):
