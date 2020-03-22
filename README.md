@@ -1,5 +1,8 @@
 # PythontexProfiler.jl
 
+[![Build Status](https://travis-ci.com/sisl/PythontexProfiler.jl.svg?branch=master)](https://travis-ci.com/sisl/PythontexProfiler.jl)
+[![Coveralls](https://coveralls.io/repos/github/sisl/PythontexProfiler.jl/badge.svg?branch=master)](https://coveralls.io/github/sisl/PythontexProfiler.jl?branch=master)
+
 This package is a profiler for the pythontex package when used to produce Julia code. It is useful for determining what lines of code in a latex document are responsible for computation time, memory allocation, and garbage collection.
 
 ## Installation
